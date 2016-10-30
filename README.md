@@ -84,3 +84,7 @@ Download these *.xls files in your local _data_ folder, next to the _src_ folder
   - Speed: 10.0
 - Export to PDFs via Preview - Export PDF
 - Export to interactive web page via File - Export - Sigma.js template
+
+## Result files and full story
+
+See my [blog article][http://frederikdurant.com/projects/firstname-network-belgium/]
