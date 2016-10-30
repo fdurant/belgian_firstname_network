@@ -11,6 +11,8 @@ Download these *.xls files in your local _data_ folder, next to the _src_ folder
 
 ## Usage
 
+    $ python src/build_firstname_network.py -h
+
     usage: build_firstname_network.py [-h] --inFileXls INFILEXLS [INFILEXLS ...]
                                       [--sheetName SHEETNAME]
                                       [--partOfCountry PARTOFCOUNTRY]
@@ -56,20 +58,21 @@ Download these *.xls files in your local _data_ folder, next to the _src_ folder
 
 ## How the GraphML files were built
 
-    python src/build_firstname_network.py --inFileXls data/Voornamen_Jongens_1995-2015_tcm325-239464.xls \\
-                                          --outFileGraphML out/firstname.graphml \\
-                                          --startNumber 1 --maxNrNames 3751 \\
-                                          --simThreshold 0.55 \\
-                                          --degreeThreshold 2 \\
-                                          --rankThreshold 100
+    $ mkdir out
+    $ python src/build_firstname_network.py --inFileXls data/Voornamen_Jongens_1995-2015_tcm325-239464.xls \\
+                                            --outFileGraphML out/firstname.graphml \\
+                                            --startNumber 1 --maxNrNames 3751 \\
+                                            --simThreshold 0.55 \\
+                                            --degreeThreshold 2 \\
+                                            --rankThreshold 100
 
-    python src/build_firstname_network.py --inFileXls data/Voornamen_meisjes_1995-2015_tcm325-239448.xls \\
-                                          --outFileGraphML out/firstname.graphml \\
-                                          --startNumber 1 \\
-                                          --maxNrNames 4135 \\
-                                          --simThreshold 0.55 \\
-                                          --degreeThreshold 2 \\
-                                          --rankThreshold 100
+    $ python src/build_firstname_network.py --inFileXls data/Voornamen_meisjes_1995-2015_tcm325-239448.xls \\
+                                            --outFileGraphML out/firstname.graphml \\
+                                            --startNumber 1 \\
+                                            --maxNrNames 4135 \\
+                                            --simThreshold 0.55 \\
+                                            --degreeThreshold 2 \\
+                                            --rankThreshold 100
 
 ## Visualization with [Gephi](https://gephi.org)
 
