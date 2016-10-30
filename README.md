@@ -87,4 +87,4 @@ Download these *.xls files in your local _data_ folder, next to the _src_ folder
 
 ## Result files and full story
 
-See my [blog article][http://frederikdurant.com/projects/firstname-network-belgium/]
+See my [blog article](http://frederikdurant.com/projects/firstname-network-belgium/)
